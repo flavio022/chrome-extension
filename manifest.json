@@ -1,0 +1,15 @@
+{
+	"name":"Minha Primeira Extensão",
+	"manifest_version": 2,
+	"version": "0.0.0.1",
+	"description":"Faça uma busca no twitter",
+	"browser_action": {
+
+        "default_icon": "icon16.png",
+    	"default_popup": "background.html"         
+	 },
+	 "permissions": [
+    	"http://search.twitter.com/"
+]
+}	
+
